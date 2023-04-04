@@ -1,0 +1,11 @@
+# githup_action_template
+# action.yml
+name : 'Custom Github Action'
+description;: 'GA takes inputs and returns outputs'
+inputs:
+  num:
+    required:true
+    default: "1"
+  outputs:
+    num_squared:
+  runs:
